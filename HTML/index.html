@@ -5,11 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shopping Cart</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"crossorigin="anonymous">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/Shopping_Cart/CSS/home.css">
 </head>
 <body>
     <nav>
-        <a href="/Shopping_Cart/HTML/index.html">Shopping Cart</a>
+        <a href="">Shopping Cart</a>
+        <br><br>
+        <i class="bx bx-exit"></i>
+        <a href="./cart.html" class="text-warning">My Cart</a>
     </nav>
 
     <!--first item-->
@@ -28,6 +32,7 @@
                             <button class="btn btn-outline-info" style="float: right; margin: 5px;">-</button>
                         </div>
                     </div>
+                    <button type="button" onclick="addToCart('Earpod', 'img1.jpg', 1899)">Add</button>
                 </div>
             </div>
 
@@ -46,6 +51,7 @@
                             <button class="btn btn-outline-info" style="float: right; margin: 5px;">-</button>
                         </div>
                     </div>
+                    <button type="button" onclick="addToCart('Earpod', 'img2.jpg', 3000)">Add</button>
                 </div>
             </div>
 
@@ -64,6 +70,7 @@
                             <button class="btn btn-outline-info" style="float: right; margin: 5px;">-</button>
                         </div>
                     </div>
+                    <button type="button" onclick="addToCart('Tablet', 'img3.jpg', 15599)">Add</button>
                 </div>
             </div>
 
@@ -82,6 +89,7 @@
                             <button class="btn btn-outline-info" style="float: right; margin: 5px;">-</button>
                         </div>
                     </div>
+                    <button type="button" onclick="addToCart('Mouse', 'img4.jpg', 1279)">Add</button>
                 </div>
             </div>
 
@@ -103,6 +111,7 @@
                             <button class="btn btn-outline-info" style="float: right; margin: 5px;">-</button>
                         </div>
                     </div>
+                    <button type="button" onclick="addToCart('Wrist Watch', 'img5.jpg', 1999)">Add</button>
                 </div>
             </div>
 
@@ -121,6 +130,7 @@
                             <button class="btn btn-outline-info" style="float: right; margin: 5px;">-</button>
                         </div>
                     </div>
+                    <button type="button" onclick="addToCart('T-Shirt', 'img6.jpg', 449)">Add</button>
                 </div>
             </div>
 
@@ -139,6 +149,7 @@
                             <button class="btn btn-outline-info" style="float: right; margin: 5px;">-</button>
                         </div>
                     </div>
+                    <button type="button" onclick="addToCart('Shoe', 'img7.jpg', 999)">Add</button>
                 </div>
             </div>
 
@@ -157,10 +168,12 @@
                             <button class="btn btn-outline-info" style="float: right; margin: 5px;">-</button>
                         </div>
                     </div>
+                    <button type="button" onclick="addToCart('Uno Card', 'img8.jpg', 249)">Add</button>
                 </div>
             </div>
         </div>
     </div>
 </body>
+<script src="../JS/bootstrap.bundle.min.js"></script>
 <script src="../JS/Script.js"></script>
 </html>
